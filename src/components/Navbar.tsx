@@ -1,16 +1,11 @@
-import Link from 'next/link'
-
-
 export const Navbar = () => {
   return (
     <>
-        <nav className="flex space-x-4">
+        <nav className="fixed top-0 left-0 w-full bg-black shadow-md z-50 flex space-x-4">
 
-          <div><Link href="/">Home</Link></div>
+          <div><a href="#top">Home</a></div> {/*make this a logo?*/}
 
-          <div><Link href="/projects">Projects</Link></div>
-
-          <div><Link href="/contact">Contact</Link></div>
+          <div><a href="#projects">Projects</a></div>
 
         </nav>
     </>
