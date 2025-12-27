@@ -10,7 +10,7 @@ export default function Home() {
 
           {/* Headshot */}
           <div className="flex justify-center md:justify-end">
-            <Image className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 2xl:w-110 2xl:h-110 transition-all duration-500 rounded-full object-cover shadow-lg shadow-black/20" src="/alanjiang.JPEG" alt="Alan Jiang Headshot"/>
+            <Image width="64" height="64" className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 2xl:w-110 2xl:h-110 transition-all duration-500 rounded-full object-cover shadow-lg shadow-black/20" src="/alanjiang.JPEG" alt="Alan Jiang Headshot"/>
           </div>
 
           {/* Information */}
