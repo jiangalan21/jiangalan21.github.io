@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Home() {
   return (
     <div className="flex flex-col items-center space-y-20 md-space-y-32">
@@ -9,7 +10,7 @@ export default function Home() {
 
           {/* Headshot */}
           <div className="flex justify-center md:justify-end">
-            <img className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 2xl:w-110 2xl:h-110 transition-all duration-500 rounded-full object-cover shadow-lg shadow-black/20" src="/alanjiang.JPEG"/>
+            <Image className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 2xl:w-110 2xl:h-110 transition-all duration-500 rounded-full object-cover shadow-lg shadow-black/20" src="/alanjiang.JPEG" alt="Alan Jiang Headshot"/>
           </div>
 
           {/* Information */}
