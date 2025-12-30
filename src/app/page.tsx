@@ -144,7 +144,7 @@ export default function Home() {
             </a>
 
             {/* Project Card 3 */}
-            <a href="https://github.com/a3jiang/LevelUpTogether" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/jiangalan21/LevelUpTogether" target="_blank" rel="noopener noreferrer" 
             className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
 
               <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
