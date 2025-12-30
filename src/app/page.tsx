@@ -136,8 +136,8 @@ export default function Home() {
                   <h1 className="flex gap-2 border border-black rounded-2xl py-1 px-3"><span><Image width="22" height="22" src="/logos/Flask.svg" alt="Flask"/></span><span>Flask</span></h1>
                 </div>
 
-                <p className="text-sm md:text-base leading-relaxed flex-grow">Do you go to UC Irvine? Do you also want to post on your school's confession page? 
-                   If your answer was yes to both, Perfect! My team and I created this app to streamline the screening process and get students' confessions out there faster!</p>
+                <p className="text-sm md:text-base leading-relaxed flex-grow">Do you go to UC Irvine? Do you also want to post on your school&apos;s confession page? 
+                   If your answer was yes to both, Perfect! My team and I created this app to streamline the screening process and get students&apos; confessions out there faster!</p>
               
               </div>
 
@@ -197,7 +197,7 @@ export default function Home() {
 
           <div className="w-full text-left">
             <h2 className="text-lg md:text-2xl lg:text-3xl font-bold">Photo Album</h2>
-            <h3 className="text-sm md:text-base lg:text-lg">Some photos I've taken</h3>
+            <h3 className="text-sm md:text-base lg:text-lg">Some photos I&apos;ve taken</h3>
           </div>
 
           <ImageGrid images={myImages} columns={4} gap={3} />
