@@ -64,7 +64,7 @@ export default function Home() {
 
             {/* Import Buttons */}
             <div className="flex flex-col gap-3 md:flex-row md:justify-start">
-              <a href="/Alan_Jiang_Resume.pdf" target="_blank" rel="noopener noreferrer" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">View Resume</button></a>
+              <a href="/Alan_Jiang_Resume_2025.pdf" target="_blank" rel="noopener noreferrer" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">View Resume</button></a>
               <a href="mailto:jiangalan21@gmail.com" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">Contact Me</button></a>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Home() {
             </a>
 
             {/* Project Card 3 */}
-            <a href="https://github.com/okethan35/LevelUpTogether" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/a3jiang/LevelUpTogether" target="_blank" rel="noopener noreferrer" 
             className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
 
               <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
