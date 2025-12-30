@@ -9,7 +9,7 @@ export const Navbar = () => {
   return (
         <nav className="fixed top-0 left-0 w-full bg-black shadow-md z-50 flex justify-between py-4 px-3 space-x-2">
           
-          <div><a href="#about">Alan Jiang</a></div>
+          <div><a href="#about" className="text-base md:text-lg lg:text-xl gradient-text-yellow">Alan Jiang</a></div>
           
 
           <input id="menu-toggle" type="checkbox" className="peer hidden" />
@@ -35,9 +35,10 @@ export const Navbar = () => {
           ) }
           
 
-          <ul className="hidden md:flex space-x-2">
-            <div><a href="#about">About</a></div> {/*make this a logo?*/}
-            <div><a href="#projects">Projects</a></div>
+          <ul className="hidden md:flex space-x-4">
+            <div><a href="#about" className="text-sm md:text-base">About</a></div> {/*make this a logo?*/}
+            <div><a href="#projects" className="text-sm md:text-base">Projects</a></div>
+            <div><a href="#stuff" className="text-sm md:text-base">Stuff</a></div>
           </ul>
 
         </nav>

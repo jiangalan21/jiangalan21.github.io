@@ -1,26 +1,166 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-subcard: var(--subcard);
+  --color-yellow-text: var(--yellow-text);
+  
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #202121;
+    --background: linear-gradient(-30deg, #000000 0%, #000820 20%, #001249 40%, #171459 50%, #1b0074 60%, #151515 80%);
     --foreground: #ededed;
+    --card: #001845;
+    --subcard: #1d1d1d;
+    --yellow-text: linear-gradient(180deg, #ffbb00 0%, #ffffff 88%);
   }
 }
 
-body {
+
+.gradient-text-yellow {
+  background: var(--yellow-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
   background: var(--background);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, "Segoe UI";
+  font-weight: 400;
+}
+
+/* Button Effect 1: Gradient on Hover */
+.button-effect-1 {
+  position: relative;
+  isolation: isolate;
+}
+
+.button-effect-1::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 0.75rem;
+  padding: 2px;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  background-size: 300% 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  will-change: opacity;
+  z-index: 1;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.button-effect-1::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 0.75rem;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  background-size: 300% 300%;
+  opacity: 0;
+  transition: opacity .15s ease;
+  z-index: -1;
+  pointer-events: none;
+  will-change: opacity;
+}
+
+.button-effect-1:hover::after {
+  opacity: 1;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+}
+
+/* Effect 5: Spinning Gradient with Pulse */
+.card-effect-5 {
+  position: relative;
+  isolation: isolate;
+}
+
+.card-effect-5::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 0.75rem;
+  padding: 2.5px;
+  background: linear-gradient(45deg, #ffbb00, #ffbb00, #ffbb00, #ffbb00);
+  background-size: 300% 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  will-change: opacity;
+  z-index: -1;
+}
+
+.card-effect-5:hover::before {
+  opacity: 1;
+  animation: gradientRotate 3s linear infinite, pulseBorder 2s ease-in-out infinite;
+  filter: blur(1px);
+}
+
+.card-effect-5::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 0.75rem;
+  background: linear-gradient(45deg, #ffdd00, #ffdd00, #ffdd00, #ffdd00);
+  background-size: 300% 300%;
+  filter: blur(6px);
+  opacity: 0;
+  transition: opacity 10s ease;
+  z-index: -1;
+  pointer-events: none;
+  will-change: opacity;
+}
+
+.card-effect-5:hover::after {
+  opacity: 1;
+  animation: gradientRotate 3s linear infinite, pulseGlow 2s ease-in-out infinite;
+}
+
+@keyframes gradientRotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes pulseBorder {
+  0%, 100% { 
+    opacity: 0.7;
+    filter: blur(1px);
+  }
+  50% { 
+    opacity: 1;
+    filter: blur(2px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { 
+    opacity: 0.4;
+  }
+  50% { 
+    opacity: 0.8;
+  }
 }
