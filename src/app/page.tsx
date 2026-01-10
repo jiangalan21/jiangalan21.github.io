@@ -95,7 +95,7 @@ export default function Home() {
 
             {/* Import Buttons */}
             <div className="flex flex-col gap-3 md:flex-row md:justify-start">
-              <a href="/Alan_Jiang_Resume_2025.pdf" target="_blank" rel="noopener noreferrer" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">View Resume</button></a>
+              <a href="/Alan_Jiang_Resume_Fastly_2026.pdf" target="_blank" rel="noopener noreferrer" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">View Resume</button></a>
               <a href="mailto:jiangalan21@gmail.com" className="button-effect-1"><button className="w-2/3 md:w-auto rounded-xl py-2 md:py-3 px-8 font-bold cursor-pointer">Contact Me</button></a>
             </div>
           </div>
