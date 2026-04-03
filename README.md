@@ -1,4 +1,6 @@
 Alan Jiang
+Fullstack/Backend Software Engineering
+
 <br></br>
 gooning around backends, the internet, and ai
 
