@@ -2,11 +2,17 @@ Alan Jiang
 <br></br>
 gooning around backends, the internet, and ai
 
-* web analytics express/node.js
+* web analytics | reverse-proxy-apache/express/node.js
 
-* cnn ai/machine learning modeling pytorch
+* cnn ai/machine learning modeling | pytorch
 
-* *in progress* deep learning model
+* *in progress* deep learning model | more pytorch
+  
+* *in progress* ai agent/mcp lahacks | probably python
+  
+* *in progress* blue bowl data analytics | reverse-proxy-apache/express/node.js or python?
+
+* *in progress* lane app (photo archive app) | aws s3
 
 What to look into next to "Feed the Beast"
 <br></br>
