@@ -7,18 +7,7 @@ export default function Home() {
     { src: '/album/switz2.jpeg', alt: 'Photo 2'},
     { src: '/album/italy3.jpeg', alt: 'Photo 3'},
     { src: '/album/golf.jpg', alt: 'Photo 4'},
-  //   { src: '/album/amalfi.jpeg', alt: 'Photo 5'},
-  //   { src: '/album/heaven1.JPG', alt: 'Photo 6'},
-  //   { src: '/album/switz1.jpeg', alt: 'Photo 7'},
-  //   { src: '/album/italy1.jpg', alt: 'Photo 8'},
-  //   { src: '/album/train.jpg', alt: 'Photo 9'},
-  //   { src: '/album/switz4.jpeg', alt: 'Photo 10'},
-  //   { src: '/album/italy2.JPG', alt: 'Photo 11' },
-  //   { src: '/album/heaven2.JPG', alt: 'Photo 12'},
-  //   { src: '/album/switz3.jpeg', alt: 'Photo 13'},
-  //   { src: '/album/heaven3.JPG', alt: 'Photo 14'},
-  //   { src: '/album/flowers.jpeg', alt: 'Photo 15'},
-  //   { src: '/album/switz5.jpeg', alt: 'Photo 16'},
+
   ]
 
 
@@ -115,7 +104,123 @@ export default function Home() {
           </div>
           <div className="w-full grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
 
+            {/* Project Card - Lane */}
+            <a href="https://www.figma.com/make/i1HyGPxy0XxNIDLt3oHXca/Render-frontend-web-stack?t=GjIddNCoAKNhYYgI-1" target="_blank" rel="noopener noreferrer">
+            <div className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
+              <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
+                <div className="text-center">
+                  <h2 className="rounded-4xl bg-subcard py-1 px-5 text-xl font-bold gradient-text-yellow">Lane</h2>
+                  <h3 className="text-lg">(Memory Archive App)</h3>
+                </div>
+                <div className="w-full aspect-video rounded-xl overflow-hidden">
+                  <img className="w-full h-full object-cover" src="/logos/lane thumbnail.png" alt="Lane, Start Strolling."/>
+                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  <span className="flex items-center gap-2 border border-orange-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#FF9900" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.064.056.128.056.184 0 .08-.048.16-.152.24l-.503.335a.383.383 0 01-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 01-.287-.375 6.18 6.18 0 01-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 01-.28.104.488.488 0 01-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 01.224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 011.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 00-.735-.136 6.02 6.02 0 00-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 01-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 01.32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 01.311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 01-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 01-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 01-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 00.415-.758.777.777 0 00-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 01-.383-1.157c0-.335.071-.63.215-.886.144-.255.335-.479.574-.654.24-.184.51-.32.814-.415.304-.096.623-.144.95-.144.167 0 .343.008.51.024.175.016.335.048.487.08.144.04.28.08.415.127.136.048.24.096.312.144a.649.649 0 01.216.2.52.52 0 01.063.271v.375c0 .168-.064.256-.184.256a.83.83 0 01-.303-.096 3.652 3.652 0 00-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167z"/>
+                    </svg>
+                    AWS S3
+                  </span>
+                  <span className="flex items-center gap-2 border border-blue-600 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="#336791" d="M17.128 0a10.134 10.134 0 00-2.755.403l-.063.02A10.922 10.922 0 0012.6.258C11.422.238 10.408.524 9.594 1 8.79.721 7.122.24 5.364.336 4.14.403 2.804.775 1.814 1.82.824 2.865.305 4.482.415 6.682c.03.607.203 1.597.49 2.879s.69 2.783 1.193 4.046c.503 1.262 1.094 2.271 1.83 2.8.366.265.797.43 1.238.376.284-.036.557-.17.788-.38.12-.109.217-.23.313-.358.21.33.43.64.673.92.577.678 1.218 1.139 1.907 1.224.4.05.81-.046 1.178-.242.124.82.195 1.643.217 2.457.03 1.1-.006 2.02-.106 2.55-.165.86-.458 1.403-.747 1.71a.756.756 0 01-.324.213c-.17.048-.523.048-.888-.262a4.06 4.06 0 01-.853-1.335 15.905 15.905 0 01-.734-2.996 1.07 1.07 0 00-1.056-.898 1.07 1.07 0 00-1.058 1.244c.12.763.306 1.79.618 2.854.312 1.064.779 2.177 1.551 3.009.773.833 1.896 1.393 3.207 1.293 1.08-.082 1.999-.548 2.697-1.258.697-.71 1.163-1.661 1.44-2.643.276-.982.352-2.002.34-2.99-.011-.804-.082-1.606-.186-2.386.14-.17.265-.36.374-.573.273-.527.42-1.152.47-1.846.055.02.112.035.172.045 1.32.22 2.42-.176 3.19-1.007.77-.83 1.22-2.07 1.29-3.55.21-4.39-2.11-8.46-6.29-9.44zm-2.37 12.515c-.476.05-.894-.125-1.256-.5-.362-.373-.654-.944-.884-1.645-.23-.7-.386-1.51-.468-2.39a15.88 15.88 0 01-.045-1.88c.024-.748.1-1.449.22-2.09a8.518 8.518 0 01.494-1.734c.223-.526.497-.954.818-1.247.32-.293.67-.43 1.056-.41.428.022.797.21 1.12.543.322.335.589.798.8 1.362.21.564.362 1.213.453 1.923.09.71.12 1.458.083 2.215-.038.757-.145 1.468-.3 2.097a5.782 5.782 0 01-.616 1.668c-.274.47-.61.83-1.015.935-.152.04-.31.05-.46.034v-.001z"/>
+                    </svg>
+                    PostgreSQL
+                  </span>
+                </div>
+                <p className="text-sm md:text-base leading-relaxed flex-grow">A sporadic-notification diary app, similar to BeReal, that sends push notifications prompting spontaneous multi-media memory entries into a personal library. Built with a secure AWS S3 media pipeline for low-latency uploads, with AI-powered categorization and PostgreSQL-based retrieval to help you document your life&apos;s story without the noise of social media.</p>
+              </div>
+            </div>
+            </a>
 
+            {/* Project Card - Dayger */}
+            <a href="https://devpost.com/software/dayger?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" rel="noopener noreferrer">
+            <div className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
+              <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
+                <div className="text-center">
+                  <h2 className="rounded-4xl bg-subcard py-1 px-5 text-xl font-bold gradient-text-yellow">Dayger</h2>
+                  <h3 className="text-lg">(LAHacks 2026 — Fetch.ai)</h3>
+                </div>
+                <div className="w-full aspect-video rounded-xl overflow-hidden">
+                  <img className="w-full h-full" src="/logos/dayger logo.png" alt="Plan Your Day, Like a Party."/>
+                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  <span className="flex items-center gap-2 border border-blue-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#3B82F6" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12" cy="8" r="4"/>
+                      <path d="M4 20c0-4.418 3.582-8 8-8s8 3.582 8 8"/>
+                    </svg>
+                    uAgents
+                  </span>
+                  <span className="flex items-center gap-2 border border-purple-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#8B5CF6" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    ASI:One
+                  </span>
+                  <span className="flex items-center gap-2 border border-blue-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="#3776AB" d="M24.04 4C14.7 4 15.14 7.54 15.14 7.54L15.17 11.2H24.28V12.48H11.53C11.53 12.48 4 13.23 4 22.56C4 31.89 10.51 31.43 10.51 31.43H13.62V27.11C13.62 27.11 13.41 21.92 18.66 21.92H29.61C29.61 21.92 34.6 21.75 34.6 16.89V8.6C34.6 8.6 35.13 4 24.04 4ZM19.29 7.42C20.17 7.42 20.89 8.14 20.89 9.02C20.89 9.9 20.17 10.62 19.29 10.62C18.41 10.62 17.69 9.9 17.69 9.02C17.69 8.14 18.41 7.42 19.29 7.42Z"/>
+                      <path fill="#FFD43B" d="M23.96 44C33.3 44 32.86 40.46 32.86 40.46L32.83 36.8H23.72V35.52H36.47C36.47 35.52 44 34.77 44 25.44C44 16.11 37.49 16.57 37.49 16.57H34.38V20.89C34.38 20.89 34.59 26.08 29.34 26.08H18.39C18.39 26.08 13.4 26.25 13.4 31.11V39.4C13.4 39.4 12.87 44 23.96 44ZM28.71 40.58C27.83 40.58 27.11 39.86 27.11 38.98C27.11 38.1 27.83 37.38 28.71 37.38C29.59 37.38 30.31 38.1 30.31 38.98C30.31 39.86 29.59 40.58 28.71 40.58Z"/>
+                    </svg>
+                    Python
+                  </span>
+                  <span className="flex items-center gap-2 border border-green-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#3ECF8E" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C.111 12.925.674 14.16 1.824 14.16h7.802l-1.558 7.758c-.015.986 1.26 1.41 1.874.637l9.262-11.653c.653-.874.09-2.109-1.06-2.109h-7.802l1.558-7.757z"/>
+                    </svg>
+                    Supabase
+                  </span>
+                </div>
+                <p className="text-sm md:text-base leading-relaxed flex-grow">A morning routine app from LAHacks 2026 powered by Fetch.ai&apos;s multi-agent framework. Takes a single morning prompt and returns five personalized cards — real-time weather, a matched outfit, a curated playlist, an energy plan, and UCLA dining picks — generated by agents on ASI:One Agentverse with live data from OpenWeatherMap, Spotify, and Mapbox.</p>
+              </div>
+            </div>
+            </a>
+
+            
+            {/* Project Card - Ajs Analytics */}
+            <a href="https://github.com/jiangalan21/Ajs-Analytics" target="_blank" rel="noopener noreferrer">
+            <div className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
+              <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
+                <div className="text-center">
+                  <h2 className="rounded-4xl bg-subcard py-1 px-5 text-xl font-bold gradient-text-yellow">Ajs Analytics</h2>
+                  <h3 className="text-lg">(Backend/Fullstack Project)</h3>
+                </div>
+                <div className="w-full aspect-video rounded-xl overflow-hidden">
+                  <img className="w-full h-full object-cover" src="/logos/digitalocean logo.png" alt="Alan Jiang's Sandbox"/>
+                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  <span className="flex items-center gap-2 border border-blue-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#0080FF" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.04 0C5.41-.02 0 5.37 0 11.99h4.64c0-4.92 4.88-8.73 10.06-6.85a6.95 6.95 0 014.15 4.15c1.89 5.18-1.92 10.06-6.84 10.06v-4.61H7.39v4.61H12c6.86 0 12.01-6.82 9.66-14.07C20.72 2.51 16.69-.01 12.04 0zM7.39 19.36H3.83v3.56H7.39zm-3.56 0v-3.13H0v3.13z"/>
+                    </svg>
+                    DigitalOcean
+                  </span>
+                  <span className="flex items-center gap-2 border border-green-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#339933" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.998 24c-.321 0-.641-.084-.922-.247l-2.936-1.737c-.438-.245-.224-.332-.08-.383.585-.203.703-.25 1.328-.604.065-.037.151-.023.218.017l2.256 1.339c.082.045.198.045.275 0l8.795-5.076c.082-.047.134-.141.134-.238V6.921c0-.099-.052-.19-.137-.242l-8.791-5.072a.274.274 0 00-.277 0L3.075 6.68a.283.283 0 00-.139.242v10.15c0 .097.053.188.137.232l2.409 1.392c1.307.654 2.108-.116 2.108-.891V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.11.255.253v10.018c0 1.745-1.056 2.746-2.92 2.746-.68 0-1.141 0-2.524-.689l-2.309-1.327A1.851 1.851 0 010 17.071V6.921c0-.663.353-1.278.922-1.608L9.716.237a1.906 1.906 0 011.843 0l8.795 5.076A1.853 1.853 0 0122.275 6.921v10.15c0 .662-.353 1.277-.922 1.608l-8.795 5.076A1.842 1.842 0 0111.998 24z"/>
+                    </svg>
+                    Node.js
+                  </span>
+                  <span className="flex items-center gap-2 border border-gray-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.138-.82zm1.128-.3h9.174c-.085-2.09-1.96-3.773-4.08-3.492-2.374.323-4.137 1.823-5.094 3.492z"/>
+                    </svg>
+                    Express
+                  </span>
+                  <span className="flex items-center gap-2 border border-red-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#D22128" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 0L0 6.5v11L12 24l12-6.5v-11L12 0zm0 2.1l10 5.4v9L12 21.9 2 16.5v-9L12 2.1zM8.5 16l1-2.5h5L15.5 16H17l-4-10h-2L7 16h1.5zm5.1-4H10.4L12 8l1.6 4z"/>
+                    </svg>
+                    Apache
+                  </span>
+                </div>
+                <p className="text-sm md:text-base leading-relaxed flex-grow">A fullstack web analytics platform built for a server-side web dev course. Features a data ingestion pipeline with JS client-side event handling, an admin panel, Node.js reverse-proxy with distributed VM backend, data collection and reporting APIs, virtual hosting with WAF and HTTPS, and data aggregation with visualization.</p>
+              </div>
+            </div>            
+            </a>
+            
             {/* Project Card 1 */}
             <a href="https://www.akpsiatucsd.com/" target="_blank" rel="noopener noreferrer" 
             className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
