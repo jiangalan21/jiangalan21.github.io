@@ -104,6 +104,48 @@ export default function Home() {
           </div>
           <div className="w-full grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
 
+
+            {/* Project Card - AI/Deep Learning R&D */}
+            <div className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
+              <div className="h-full flex flex-col space-y-4 p-6 bg-card rounded-xl relative z-10 items-center">
+                <div className="text-center">
+                  <h2 className="rounded-4xl bg-subcard py-1 px-5 text-xl font-bold gradient-text-yellow">Qwen3-4B</h2>
+                  <h3 className="text-lg">(AI/Deep Learning R&amp;D)</h3>
+                </div>
+                <div className="w-full aspect-video rounded-xl overflow-hidden">
+                  <img className="w-full h-full object-cover" src="/logos/llm optim proj.png" alt="LLM Optimization"/>
+                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  <span className="flex items-center gap-2 border border-blue-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="#3776AB" d="M24.04 4C14.7 4 15.14 7.54 15.14 7.54L15.17 11.2H24.28V12.48H11.53C11.53 12.48 4 13.23 4 22.56C4 31.89 10.51 31.43 10.51 31.43H13.62V27.11C13.62 27.11 13.41 21.92 18.66 21.92H29.61C29.61 21.92 34.6 21.75 34.6 16.89V8.6C34.6 8.6 35.13 4 24.04 4ZM19.29 7.42C20.17 7.42 20.89 8.14 20.89 9.02C20.89 9.9 20.17 10.62 19.29 10.62C18.41 10.62 17.69 9.9 17.69 9.02C17.69 8.14 18.41 7.42 19.29 7.42Z"/>
+                      <path fill="#FFD43B" d="M23.96 44C33.3 44 32.86 40.46 32.86 40.46L32.83 36.8H23.72V35.52H36.47C36.47 35.52 44 34.77 44 25.44C44 16.11 37.49 16.57 37.49 16.57H34.38V20.89C34.38 20.89 34.59 26.08 29.34 26.08H18.39C18.39 26.08 13.4 26.25 13.4 31.11V39.4C13.4 39.4 12.87 44 23.96 44ZM28.71 40.58C27.83 40.58 27.11 39.86 27.11 38.98C27.11 38.1 27.83 37.38 28.71 37.38C29.59 37.38 30.31 38.1 30.31 38.98C30.31 39.86 29.59 40.58 28.71 40.58Z"/>
+                    </svg>
+                    Python
+                  </span>
+                  <span className="flex items-center gap-2 border border-orange-500 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#EE4C2C" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.012 9.866 9.866 0 0014.01 0 9.866 9.866 0 000-14.012L16.537 9.48a4.5 4.5 0 11-6.364 6.364 4.5 4.5 0 010-6.364z"/>
+                    </svg>
+                    PyTorch
+                  </span>
+                  <span className="flex items-center gap-2 border border-sky-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="#20BEFF" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.336"/>
+                    </svg>
+                    Kaggle
+                  </span>
+                  <span className="flex items-center gap-2 border border-orange-400 rounded-2xl py-1 px-3">
+                    <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="#F37626" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                    Jupyter
+                  </span>
+                </div>
+                <p className="text-sm md:text-base leading-relaxed flex-grow">From scratch to state-of-the-art, this is my hands-on dive into modern AI. I participated in an LLM optimization competition, where I fine-tuned the Qwen3-4B model for graduate-level math reasoning using Supervised Fine-Tuning and Reinforcement Learning. I explored how inference-time techniques like Chain-of-Thought and Self-Consistency can sharpen a model&apos;s logic without ever touching a single weight.</p>
+              </div>
+            </div>
+
             {/* Project Card - Lane */}
             <a href="https://www.figma.com/make/i1HyGPxy0XxNIDLt3oHXca/Render-frontend-web-stack?t=GjIddNCoAKNhYYgI-1" target="_blank" rel="noopener noreferrer">
             <div className="card-effect-5 border rounded-xl hover:scale-105 shadow-xl shadow-black/20 hover:shadow-black/50 transition-all duration-300 ease-in-out">
@@ -418,10 +460,11 @@ export default function Home() {
 
             </a>
 
+
           </div>
 
         </div>
-        
+
       </section>
 
       <section id="stuff" className="w-full px-4 md:px-8 lg:px-16 pb-20">
